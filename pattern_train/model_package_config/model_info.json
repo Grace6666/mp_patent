@@ -1,0 +1,12 @@
+{
+    "basicinfo": {
+        "description_cn": "攻击手法特征融合检测模型",
+        "description_en": "Attack Method Feature Fusion Detection Model",
+        "encrypted": "false",
+        "model_file_name": "fast_fusion_model.pkl",
+        "model_type": "pkl",
+        "scene": "attack_pattern_detection",
+        "origin": "self-developed",
+        "version": "25.0.0"
+    }
+}
