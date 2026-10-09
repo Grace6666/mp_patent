@@ -16,7 +16,7 @@ from paragraph_config import PatternBaseConfig
 from keywords_config import KeywordsBaseConfig
 from keywords_config import KeywordsFeatureConfig
 
-_BASE_DIR = os.path.realpath(os.path.join(os.path.dirname(__file__), "../"))
+_BASE_DIR = os.path.dirname(os.path.realpath(__file__))
 
 
 class AhoCorasick:

@@ -25,7 +25,7 @@ from extract_features_by_keywords import KeywordsFeatures
 from extract_features_by_paragraph import ParagraphFeatures
 from extract_features_by_keywords import KeywordsBaseHandler
 
-_BASE_DIR = os.path.realpath(os.path.join(os.path.dirname(__file__), "../"))
+_BASE_DIR = os.path.dirname(os.path.realpath(__file__))
 _DEFAULT_PARAMS = {
     "keywords_config":
         {
